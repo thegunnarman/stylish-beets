@@ -1,7 +1,7 @@
 html {
   background-color: #c9b5ab;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
@@ -16,6 +16,7 @@ blockquote {
 p {
   font-size: 1.25rem;
 }
+
 img {
   width: 100%;
 }
@@ -37,6 +38,13 @@ a {
 }
 
 a:hover {
+  color: #222;
+  line-height: 1.5;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:visited {
   color: #3f1622;
   line-height: 1.5;
   list-style-type: none;
