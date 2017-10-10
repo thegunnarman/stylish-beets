@@ -6,35 +6,39 @@ html {
 }
 
 li {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 blockquote {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 1.25rema
+  font-size: 1.25rem;
 }
 img {
   width: 100%;
 }
 
 nav li {
-  font-weight: bold;
+
   font-size: 1.125rem;
   font-weight: normal;
   list-style-type: none;
   text-decoration: none;
+  line-height: 1.5;
 }
 
 a {
   color: #8f2440;
-
+  line-height: 1.5;
   list-style-type: none;
   text-decoration: none;
 }
 
 a:hover {
   color: #3f1622;
+  line-height: 1.5;
+  list-style-type: none;
+  text-decoration: none;
 }
