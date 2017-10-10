@@ -3,6 +3,7 @@ html {
   font-family: "PT Sans", sans-serif;
   font-family: "PT Serif", serif;
   line-height: 1.5;
+  width: 100%;
 }
 
 li {
@@ -11,6 +12,13 @@ li {
 
 blockquote {
   font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+}
+
+main {
+  font-size: .8rem;
+
 }
 
 p {
@@ -35,6 +43,7 @@ a {
   line-height: 1.5;
   list-style-type: none;
   text-decoration: none;
+  font-family: "PT Sans", sans-serif;
 }
 
 a:hover {
