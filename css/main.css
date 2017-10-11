@@ -4,14 +4,21 @@ html {
   font-family: "PT Serif", serif;
   line-height: 1.5;
   width: 100%;
+  font-weight: normal;
 }
 
+header {
+  font-family: "PT Sans", sans-serif;
+
+  line-height: 1.5;
+  color: #222;
+}
 li {
   font-size: .8rem;
 }
 
 blockquote {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "PT Serif", serif;
   line-height: 1.5;
 }
@@ -22,7 +29,7 @@ main {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: .8rem;
 }
 
 img {
@@ -32,10 +39,13 @@ img {
 nav li {
 
   font-size: 1.125rem;
-  font-weight: normal;
+  font-weight: bold;
   list-style-type: none;
   text-decoration: none;
   line-height: 1.5;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.0;
 }
 
 a {
@@ -58,4 +68,9 @@ a:visited {
   line-height: 1.5;
   list-style-type: none;
   text-decoration: none;
+}
+
+.ul {
+  list-style-type: none;
+  list-style-type: circle;
 }
